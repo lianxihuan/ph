@@ -40,7 +40,7 @@
             100% {transform: translateX(-100%);}
         }
 
-        /* 【完全保留你原来的摄影翻书模块，一点不改】 */
+        /* 摄影翻书模块完全保留原样 */
         .book-viewer { margin: 40px 0; text-align: center; }
         .book-viewer img { max-width: 600px; max-height: 80vh; border: 12px solid #f0f0f0; }
         .book-controls { margin-top: 20px; gap: 12px; display: flex; justify-content: center; }
@@ -49,95 +49,40 @@
 </head>
 <body>
     <h1>My Polaroid Gallery</h1>
-    <!-- 宝丽来自动横向循环滚动 -->
     <div class="scroll-wrap">
         <div class="scroll-track">
-            < img class="polaroid-card" src="polar-1.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-2.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-3.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-4.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-5.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-6.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-7.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-8.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-9.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-10.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-11.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-12.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-13.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-14.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-15.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-16.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-17.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-18.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-19.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-20.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-21.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-22.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-23.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-24.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-25.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-26.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-27.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-28.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-29.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-30.jpeg" alt="polaroid photo" loading="lazy">
-            <!--复制一遍，实现无缝循环-->
-            < img class="polaroid-card" src="polar-1.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-2.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-3.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-4.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-5.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-6.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-7.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-8.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-9.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-10.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-11.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-12.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-13.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-14.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-15.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-16.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-17.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-18.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-19.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-20.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-21.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-22.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-23.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-24.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-25.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-26.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-27.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-28.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-29.jpeg" alt="polaroid photo" loading="lazy">
-            < img class="polaroid-card" src="polar-30.jpeg" alt="polaroid photo" loading="lazy">
-        </div>
-    </div>
-
-    <!-- 下面摄影翻书模块，完全原样保留你的原版代码，没有改动 -->
-    <div class="book-viewer">
-        <h2>Photography Book</h2>
-        < img id="bookImg" src="book_01.jpg" alt="book page" loading="lazy">
-        <div class="book-controls">
-            <button onclick="prev()">Previous</button>
-            <button onclick="next()">Next</button>
-        </div>
-    </div>
-
-<script>
-    const totalBookPages = 35;
-    let current = 1;
-    function refreshBook() {
-        document.getElementById("bookImg").src = `book_${String(current).padStart(2,'0')}.jpg`;
-    }
-    function next() {
-        if(current < totalBookPages) { current++; refreshBook(); }
-    }
-    function prev() {
-        if(current > 1) { current--; refreshBook(); }
-    }
-</script>
-</body>
-</html>
+            < img class="polaroid-card" src="polar-1.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-2.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-3.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-4.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-5.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-6.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-7.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-8.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-9.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-10.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-11.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-12.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-13.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-14.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-15.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-16.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-17.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-18.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-19.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-20.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-21.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-22.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-23.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-24.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-25.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-26.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-27.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-28.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-29.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-30.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            <!--无缝循环复制-->
+            < img class="polaroid-card" src="polar-1.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-2.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-3.jpeg" alt="polaroid photo" loading="lazy" decoding="async">
+            < img class="polaroid-card" src="polar-4.jpeg" alt="polaroid photo" loading="lazy" decoding="async">...
